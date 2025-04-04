@@ -18,3 +18,35 @@ SARLANG-1M is a large-scale benchmark tailored for multimodal SAR image understa
 <p align="center">
   <img src="Overview.png" alt="accuracy" width="97%">
 </p>
+
+## 🗝️Let's Get Started with SARLANG-1M!
+### `A. Installation`
+
+Note that the code in this repo runs under **Linux** system. We have not tested whether it works under other OS.
+
+**Step 1: Clone the repository:**
+
+Clone this repository and navigate to the project directory:
+```bash
+git clone https://github.com/Jimmyxichen/SARLANG-1M.git
+cd SARLANG-1M
+```
+
+**Step 2: Environment Setup:**
+
+It is recommended to set up a conda environment and installing dependencies via pip. Use the following commands to set up your environment:
+
+***Create and activate a new conda environment***
+
+```bash
+conda create -n SARLANG1M
+conda activate SARLANG1M
+```
+
+***Install dependencies***
+
+```bash
+pip install -r requirements.txt
+```
+
+### `B. Data Preparation`
