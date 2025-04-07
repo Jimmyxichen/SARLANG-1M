@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ## 📜Reference
 
-If this dataset or code contributes to your research, please kindly consider citing our paper and give this repo ⭐️ :)
+If this dataset or code contributes to your research, please kindly consider citing our paper and give this repo ⭐️.
 
 ## 🤝Acknowledgments
 The authors would also like to give special thanks to [SARDet_100K](https://github.com/zcablii/SARDet_100K), [SpaceNet6](https://spacenet.ai/sn6-challenge/), [DFC2023](https://www.grss-ieee.org/community/technical-committees/2023-ieee-grss-data-fusion-contest/) and [OpenEarthMap-SAR](https://zenodo.org/records/14622048) for providing the valuable SAR Images.
