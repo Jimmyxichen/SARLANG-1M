@@ -14,19 +14,19 @@
 
 ## 🔭Overview
 
-* [**SARLANG-1M**](https://arxiv.org/abs/2504.03254) is a large-scale benchmark tailored for multimodal SAR image understanding, with a primary focus on integrating SAR with textual modality. SARLANG-1M comprises more than 1 million high-quality SAR image-text pairs collected from over 59 cities worldwide. It features hierarchical resolutions (ranging from 0.1 to 25 meters), fine-grained semantic descriptions (including both concise and detailed captions), diverse remote sensing categories (1,696 object types and 16 land cover classes), and multi-task question-answering pairs spanning seven applications and 1,012 question types. Extensive experiments on mainstream VLMs demonstrate that fine-tuning with SARLANG-1M significantly enhances their performance in SAR image interpretation, reaching performance comparable to human experts.
+* [**SARLANG-1M**](https://arxiv.org/abs/2504.03254) is a large-scale benchmark tailored for multimodal SAR image understanding, with a primary focus on integrating SAR with textual modality. SARLANG-1M comprises more than 1 million high-quality SAR image-text pairs collected from over 59 cities worldwide. It features hierarchical resolutions (ranging from 0.1 to 25 meters), fine-grained semantic descriptions (including both concise and detailed captions), diverse remote sensing categories (1,696 object types and 16 land cover classes), and multi-task question-answering pairs spanning seven applications and 1,012 question types. Fine-tuning with our SARLANG-1M dataset can significantly enhance VLMs' performance in SAR image interpretation, reaching performance comparable to human experts.
 
 <p align="center">
   <img src="Overview.png" alt="accuracy" width="97%">
 </p>
 
 * [**SARLANG-1M**](https://arxiv.org/abs/2504.03254) dataset supports seven SAR applications:
-- Image Description : describe the SAR image.
-- Object Identification : determine the presence of specific objects within the SAR image, with answers being ’yes’ or ’no’.
-- Object Classification : identify the predominant category within the SAR image.
-- Instance Counting : predict the quantity of a specific category within the SAR image.
-- Region Referring : Determines the approximate location of a category within the SAR image.
-- Others : predict the object shape, direction, reasoning etc.
+1) Image Description : describe the SAR image.
+2) Object Identification : determine the presence of specific objects within the SAR image, with answers being ’yes’ or ’no’.
+3) Object Classification : identify the predominant category within the SAR image.
+4) Instance Counting : predict the quantity of a specific category within the SAR image.
+5) Region Referring : Determines the approximate location of a category within the SAR image.
+6) Others : predict the object shape, direction, reasoning etc.
 
 
 ## 🗝️Let's Get Started with SARLANG-1M!
