@@ -20,6 +20,15 @@
   <img src="Overview.png" alt="accuracy" width="97%">
 </p>
 
+* [**SARLANG-1M**](https://arxiv.org/abs/2504.03254) dataset supports seven SAR applications:
+- Image Description : describe the SAR image.
+- Object Identification : determine the presence of specific objects within the SAR image, with answers being ’yes’ or ’no’.
+- Object Classification : identify the predominant category within the SAR image.
+- Instance Counting : predict the quantity of a specific category within the SAR image.
+- Region Referring : Determines the approximate location of a category within the SAR image.
+- Others : predict the object shape, direction, reasoning etc.
+
+
 ## 🗝️Let's Get Started with SARLANG-1M!
 ### `A. Installation`
 
