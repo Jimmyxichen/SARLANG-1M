@@ -21,12 +21,16 @@
 </p>
 
 * [**SARLANG-1M**](https://arxiv.org/abs/2504.03254) dataset supports seven SAR applications:
-1) Image Description : describe the SAR image.
-2) Object Identification : determine the presence of specific objects within the SAR image, with answers being ’yes’ or ’no’.
-3) Object Classification : identify the predominant category within the SAR image.
-4) Instance Counting : predict the quantity of a specific category within the SAR image.
-5) Region Referring : Determines the approximate location of a category within the SAR image.
-6) Others : predict the object shape, direction, reasoning etc.
+
+| Application | Application Description | Text Numuber |
+|:---:|:---:|:---:|
+| Image Description | Describe the SAR image | 45,650 |
+| Object Identification | Determine the presence of specific objects | 484,620 |
+| Object Classification | Identify the predominant category within the SAR image | 132,525 |
+| Instance Counting | Quantify instances within the SAR image | 117,382 |
+| Region Referring | Determine the category present in the specific location | 221,450 |
+| Object Positioning | Determines the approximate location of a category | 106,171 |
+| Others | Predict the object shape, direction, reasoning etc | 18,479 |
 
 
 ## 🗝️Let's Get Started with SARLANG-1M!
