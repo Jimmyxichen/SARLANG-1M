@@ -32,6 +32,12 @@
 | Object Positioning | Determines the approximate location of a category | 106,171 |
 | Others | Predict the object shape, direction, reasoning etc | 18,479 |
 
+* The Statistics of Text Annotations in SARLANG-1M dataset: 
+<p align="center">
+  <img src="fig36.png" alt="Statistics" width="97%">
+</p>
+
+The image shows the distribution of seven applications provided in the SARLANG-1M benchmark (a), the numbers of each question type in the 'others' application (b), and the distribution of the 30 most frequent object categories (c).
 
 ## 🗝️Let's Get Started with SARLANG-1M!
 ### `A. Installation`
