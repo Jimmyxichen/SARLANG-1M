@@ -12,6 +12,11 @@
 
 </div>
 
+## 🛎️News
+* **` Notice☀️☀️`**: The [full version of the SARLANG-1M paper](https://arxiv.org/abs/2504.03254) are now online. Related data and benchmark suites will be released soon!!
+* **` Apr 27th, 2025`**: SARLANG-1M was presented in [3rd ML4RS Workshop](https://docs.google.com/presentation/d/1m4ejHd3-JMEAkstrhNPho9hp26MVoZqcQRvKCf9mGFc/edit#slide=id.g35074c149df_0_148)!!
+* **` Apr 7th, 2025`**: The [arXiv paper](https://arxiv.org/abs/2504.03254) of SARLANG-1M is now online. If you are interested in details of SARLANG-1M, do not hesitate to take a look!!
+
 ## 🔭Overview
 
 * [**SARLANG-1M**](https://arxiv.org/abs/2504.03254) is a large-scale benchmark tailored for multimodal SAR image understanding, with a primary focus on integrating SAR with textual modality. SARLANG-1M comprises more than 1 million high-quality SAR image-text pairs collected from over 59 cities worldwide. It features hierarchical resolutions (ranging from 0.1 to 25 meters), fine-grained semantic descriptions (including both concise and detailed captions), diverse remote sensing categories (1,696 object types and 16 land cover classes), and multi-task question-answering pairs spanning seven applications and 1,012 question types. Fine-tuning with our SARLANG-1M dataset can significantly enhance VLMs' performance in SAR image interpretation, reaching performance comparable to human experts.
