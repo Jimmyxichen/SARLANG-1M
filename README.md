@@ -14,7 +14,7 @@
 
 ## 🛎️News
 * **` Notice☀️☀️`**: The [full version of the SARLANG-1M paper](https://arxiv.org/abs/2504.03254) are now online. Related data and benchmark suites will be released soon!!
-* **` Apr 27th, 2025`**: SARLANG-1M was presented in [3rd ML4RS Workshop](https://docs.google.com/presentation/d/1m4ejHd3-JMEAkstrhNPho9hp26MVoZqcQRvKCf9mGFc/edit#slide=id.g35074c149df_0_148)!!
+* **` Apr 27th, 2025`**: SARLANG-1M was presented at the [3rd Workshop on Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2025/) at ICLR 2025. See the [demo](https://docs.google.com/presentation/d/1m4ejHd3-JMEAkstrhNPho9hp26MVoZqcQRvKCf9mGFc/edit#slide=id.g35074c149df_0_148)!!
 * **` Apr 7th, 2025`**: The [arXiv paper](https://arxiv.org/abs/2504.03254) of SARLANG-1M is now online. If you are interested in details of SARLANG-1M, do not hesitate to take a look!!
 
 ## 🔭Overview
