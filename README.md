@@ -92,7 +92,7 @@ ${DATASET_ROOT}   # Dataset root directory, for example: /home/username/data/SAR
      └── VQA
          ...
 ```
-Both the original SAR images and preprocessed SAR images are provided. Notably, SAR image preprocessing is an optional strategy to improve the performance of VLMs by significantly enhancing image clarity and effectively highlighting key objects within the SAR images. You can choose any version according to your needs.
+Both the original SAR images [tif format] and preprocessed SAR images [png format] are provided. Notably, SAR image preprocessing is an optional strategy to improve the performance of VLMs by significantly enhancing image clarity and effectively highlighting key objects within the SAR images. You can choose any version according to your needs.
 
 ### `C. Model Training & Tuning`
 
