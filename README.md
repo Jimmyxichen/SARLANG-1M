@@ -76,7 +76,7 @@ pip install -r requirements.txt
 
 ### `B. Data Preparation`
 
-Please download the SAR images from [HuggingFace](https://huggingface.co/datasets/YiminJimmy/SARLANG-1M) and make them have the following folder/file structure:
+Please download the SAR images (both original images[tif format] and preprocessed images[png format]) from [HuggingFace](https://huggingface.co/datasets/YiminJimmy/SARLANG-1M) and make them have the following folder/file structure:
 ```
 ${DATASET_ROOT}   # Dataset root directory, for example: /home/username/data/SARLANG_1M
 │
