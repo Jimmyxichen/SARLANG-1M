@@ -110,7 +110,7 @@ We partition the VQA data in our dataset into two subsets: SARVQA1_train/test an
 
 In contrast, the files prefixed with SARVQA2_train/test contain VQA textual annotations for SAR images derived from the [SpaceNet6](https://spacenet.ai/sn6-challenge/), [DFC2023](https://www.grss-ieee.org/community/technical-committees/2023-ieee-grss-data-fusion-contest/) and [OpenEarthMap-SAR](https://zenodo.org/records/14622048) datasets. These datasets offer high-resolution SAR imagery, with ground sampling distances ranging from 0.1 to 1 meter, and encompass a richer variety of remote sensing target categories. If your research primarily focuses on high-resolution SAR image interpretation, you may opt to use only this subset for model training.
 
-Note: If you intend to train your model on the combined VQA data from both subsets, it is necessary to prepend prompts such as “The classes are: tank, car, aircraft, harbor, bridge, ship.” to the questions originating from the [SARDet_100K](https://github.com/zcablii/SARDet_100K) dataset to clarify the available object categories.
+Note: If you intend to train your model on the combined VQA data from both subsets, it is necessary to prepend prompts such as “The classes are: tank, car, aircraft, harbor, bridge, ship.” or "The classes are: top, center, bottom, left, right." to the questions originating from the [SARDet_100K](https://github.com/zcablii/SARDet_100K) dataset to clarify the available object/position categories.
 
 
 ### `C. Model Training & Tuning`
