@@ -94,6 +94,18 @@ ${DATASET_ROOT}   # Dataset root directory, for example: /home/username/data/SAR
 ```
 Both the original SAR images [tif format] and preprocessed SAR images [png format] are provided. Notably, SAR image preprocessing is an optional strategy to improve the performance of VLMs by significantly enhancing image clarity and effectively highlighting key objects within the SAR images. You can choose any version according to your needs.
 
+Our text data is available in the Text.zip file, which can be accessed via [HuggingFace](https://huggingface.co/datasets/YiminJimmy/SARLANG-1M/blob/main/Text.zip). We provide the text data in both JSON and CSV formats, allowing users to select the appropriate format based on their specific requirements.
+
+***Caption Labels***
+The dataset includes two types of captions: complex captions and concise captions. Mixed captions, which combine both complex and concise descriptions, are used for training and are stored in the Caption-training.csv file. For evaluation, Caption_test.csv contains only complex captions as the test set, while Caption_test1.csv contains only concise captions as the test set.
+
+***VQA Labels***
+We partition the VQA data in our dataset into two subsets: SARVQA1_train/test and SARVQA2_train/test. The files prefixed with SARVQA1_train/test contain VQA text annotations for SAR images sourced from the [SARDet_100K](https://github.com/zcablii/SARDet_100K) dataset. These annotations are generated based on bounding box information, providing highly accurate descriptions of both the location and quantity of objects. However, the [SARDet_100K](https://github.com/zcablii/SARDet_100K) dataset only includes six common categories of remote sensing targets, which limits the diversity of object types represented in these annotations.
+
+In contrast, the files prefixed with SARVQA2_train/test contain VQA textual annotations for SAR images derived from the [SpaceNet6](https://spacenet.ai/sn6-challenge/), [DFC2023](https://www.grss-ieee.org/community/technical-committees/2023-ieee-grss-data-fusion-contest/) and [OpenEarthMap-SAR](https://zenodo.org/records/14622048) datasets. These datasets offer high-resolution SAR imagery, with ground sampling distances ranging from 0.1 to 1 meter, and encompass a richer variety of remote sensing target categories. If your research primarily focuses on high-resolution SAR image interpretation, you may opt to use only this subset for model training.
+
+Note: If you intend to train your model on the combined VQA data from both subsets, it is necessary to prepend prompts such as “The classes are: tank, car, aircraft, harbor, bridge, ship.” to the questions originating from the [SARDet_100K](https://github.com/zcablii/SARDet_100K) dataset to clarify the available object categories.
+
 ### `C. Model Training & Tuning`
 
 ### `D. Inference & Evaluation`
