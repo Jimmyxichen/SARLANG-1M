@@ -117,6 +117,27 @@ Note: If you intend to train your model on the combined VQA data from both subse
 
 ### `D. Inference & Evaluation`
 
+***Compute Evaluation Metrics for SAR Image Captioning***
+Please install pycocoevalcap package and then run the Evaluate_caption.py file.
+
+```bash
+pip install pycocoevalcap
+Or:
+pip install git+https://github.com/salaniz/pycocoevalcap
+
+python Evaluate_caption.py
+```
+
+***Compute Evaluation Metrics for SAR image VQA***
+
+Please install openai package and then run the Evaluate_caption.py file.
+
+```bash
+pip install openai
+
+python Evaluate_VQA.py
+```
+
 ## 📜Reference
 
 If this dataset or code contributes to your research, please kindly consider citing our paper and give this repo ⭐️.
