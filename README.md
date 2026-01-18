@@ -145,7 +145,15 @@ python Evaluate_VQA.py
 
 ## 📜Reference
 
-If this dataset or code contributes to your research, please kindly consider citing our paper and give this repo ⭐️.
+If this dataset or code contributes to your research, please kindly consider citing our paper and give this repo ⭐️:
+```
+@Article{wei2025sarlang,
+  TITLE={SARLANG-1M: A Benchmark for Vision-Language Modeling in SAR Image Understanding},
+  AUTHOR={Wei, Yimin and Xiao, Aoran and Ren, Yexian and Zhu, Yuting and Chen, Hongruixuan and Xia, Junshi and Yokoya, Naoto},
+  JOURNAL={arXiv preprint arXiv:2504.03254},
+  YEAR={2025}
+}
+```
 
 ## 🤝Acknowledgments
 The authors would also like to give special thanks to [SARDet_100K](https://github.com/zcablii/SARDet_100K), [SpaceNet6](https://spacenet.ai/sn6-challenge/), [DFC2023](https://www.grss-ieee.org/community/technical-committees/2023-ieee-grss-data-fusion-contest/) and [OpenEarthMap-SAR](https://zenodo.org/records/14622048) for providing the valuable SAR Images.
