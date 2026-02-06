@@ -99,6 +99,8 @@ Both the original SAR images [tif format] and preprocessed SAR images [png forma
 
 To facilitate research for everyone interested in multimodal remote sensing foundation models, we provide the RGB image resources used in our paper on [HuggingFace](https://huggingface.co/datasets/YiminJimmy/SARLANG-1M/blob/main/RGBimages.zip).
 
+***Text Annotations***
+
 Our text data is available in the Text.zip file, which can be accessed via [HuggingFace](https://huggingface.co/datasets/YiminJimmy/SARLANG-1M/blob/main/Text.zip). We provide the text data in both JSON and CSV formats, allowing users to select the appropriate format based on their specific requirements.
 
 ***Caption Labels***
