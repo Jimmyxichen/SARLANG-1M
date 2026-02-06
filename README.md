@@ -13,6 +13,7 @@
 </div>
 
 ## 🛎️News
+* **` Feb 6th, 2026`**: To facilitate research for everyone interested in multimodal remote sensing foundation models, RGB image resources have been uploaded on [HuggingFace](https://huggingface.co/datasets/YiminJimmy/SARLANG-1M/blob/main/RGBimages.zip).
 * **` Notice☀️☀️`**: SARLANG-1M has been accepted by [IEEE TGRS 2026] on January 5, 2026!! Related data and benchmark suites has been released!
 * **` Apr 27th, 2025`**: SARLANG-1M was presented at the [3rd Workshop on Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2025/) at ICLR 2025. See the [demo](https://docs.google.com/presentation/d/1m4ejHd3-JMEAkstrhNPho9hp26MVoZqcQRvKCf9mGFc/edit#slide=id.g35074c149df_0_148)!!
 * **` Apr 7th, 2025`**: The [arXiv paper](https://arxiv.org/abs/2504.03254) of SARLANG-1M is now online. If you are interested in details of SARLANG-1M, do not hesitate to take a look!!
@@ -94,8 +95,10 @@ ${DATASET_ROOT}   # Dataset root directory, for example: /home/username/data/SAR
 ```
 Both the original SAR images [tif format] and preprocessed SAR images [png format] are provided. Notably, SAR image preprocessing is an optional strategy to improve the performance of VLMs by significantly enhancing image clarity and effectively highlighting key objects within the SAR images. You can choose any version according to your needs.
 
-Our text data is available in the Text.zip file, which can be accessed via [HuggingFace](https://huggingface.co/datasets/YiminJimmy/SARLANG-1M/blob/main/Text.zip). We provide the text data in both JSON and CSV formats, allowing users to select the appropriate format based on their specific requirements.
+***RGB Image Resources***
+To facilitate research for everyone interested in multimodal remote sensing foundation models, we provide the RGB image resources used in our paper on [HuggingFace](https://huggingface.co/datasets/YiminJimmy/SARLANG-1M/blob/main/RGBimages.zip).
 
+Our text data is available in the Text.zip file, which can be accessed via [HuggingFace](https://huggingface.co/datasets/YiminJimmy/SARLANG-1M/blob/main/Text.zip). We provide the text data in both JSON and CSV formats, allowing users to select the appropriate format based on their specific requirements.
 
 ***Caption Labels***
 
