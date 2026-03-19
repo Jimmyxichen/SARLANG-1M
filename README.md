@@ -153,10 +153,10 @@ python Evaluate_VQA.py
 
 If this dataset or code contributes to your research, please kindly consider citing our paper and give this repo ⭐️:
 ```
-@Article{wei2026sarlang,
-  title={{SAR}lang-1m: A benchmark for vision-language modeling in sar image understanding},
+@article{wei2026sarlang,
+  title={{SARLANG-1M}: A benchmark for vision-language modeling in {SAR} image understanding},
   author={Wei, Yimin and Xiao, Aoran and Ren, Yexian and Zhu, Yuting and Chen, Hongruixuan and Xia, Junshi and Yokoya, Naoto},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  journal={{IEEE} {T}ransactions on {G}eoscience and {R}emote {S}ensing},
   year={2026},
   publisher={IEEE}
 }
